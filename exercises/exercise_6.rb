@@ -16,10 +16,10 @@ puts "----------"
 @store5 = Store.find_by(id: 6)
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "John", last_name: "Doe", hourly_rate: 20)
-@store2.employees.create(first_name: "Jane", last_name: "Doe", hourly_rate: 30)
+@store1.employees.create(first_name: "John", last_name: "Doe", hourly_rate: 40)
+@store2.employees.create(first_name: "Jane", last_name: "Doe", hourly_rate: 50)
 @store3.employees.create(first_name: "Tony", last_name: "Stark", hourly_rate: 200)
-@store3.employees.create(first_name: "Steve", last_name: "Rogers", hourly_rate: 5)
+@store3.employees.create(first_name: "Steve", last_name: "Rogers", hourly_rate: 55)
 @store3.employees.create(first_name: "Natasha", last_name: "Romanoff", hourly_rate: 150)
 @store4.employees.create(first_name: "Bruce", last_name: "Banner", hourly_rate: 200)
 @store4.employees.create(first_name: "Chadwick", last_name: "Boseman", hourly_rate: 150)
